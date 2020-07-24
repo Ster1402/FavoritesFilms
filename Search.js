@@ -127,7 +127,6 @@ class Search extends Component {
 
 				<TextInput
 					selectTextOnFocus={true}
-					autoFocus={true}
 					onSubmitEditing={() => {
 						this._searchFilms();
 					}}
