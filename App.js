@@ -1,10 +1,11 @@
-import React from 'react';
-import Navigation from './Navigation/Navigation';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import Navigation from './Navigation/Navigation'
 
-class App extends React.Component {
-	render() {
-		return <Navigation />;
-	}
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Navigation />
+    </NavigationContainer>
+  );
 }
-
-export default App;
